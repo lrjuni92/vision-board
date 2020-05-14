@@ -1,0 +1,76 @@
+/** Background and Board Setup **/
+
+body{
+  background-color: #E8E8E8;
+}
+
+#vision-board{
+  background-image: url("../img/background.png");
+  clear: both;
+  font-family: "Montserrat", sans-serif;
+  height: 850px;
+  margin: 50px auto;
+  text-transform: uppercase;
+  width: 1200px;
+}
+
+.block{
+  box-sizing: border-box;
+  float: left;
+  width: 400px;
+}
+
+.small-block{
+  height: 210px;
+  padding: 20px 30px;
+}
+
+.large-block{
+  height: 430px;
+  padding: 75px 40px;
+}
+
+/** Content Alignment **/
+
+.right-align{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+/** Blocks' background **/
+
+.light-bg{
+  background: #FFFFFF;
+}
+
+.dark-bg{
+  background: #3B3B3B;
+}
+
+/** Text Styling **/
+
+.title{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.title span{
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 30px;
+}
+
+h3 span{
+  background: #FFF44F;
+  padding: 5px 15px;
+}
+
+p{
+  font-size: 20px;
+}
+
+p strong{
+  font-size: 30px;
+}
